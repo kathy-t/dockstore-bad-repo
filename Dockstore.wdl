@@ -10,11 +10,11 @@ task hello {
 }
 
 
-
-workflow test {
-  call hello
   meta {
     author: "Welliton Souza"
     email: "broken@gmail.com"
   }
+
+workflow test {
+  call hello
 }
