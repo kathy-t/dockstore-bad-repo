@@ -7,15 +7,14 @@ task hello {
   output {
     File response = stdout()
   }
-  
-  meta {
-    author: "Welliton Souza"
-    email: "wellXXX@gmail.com"
-  }
 }
 
 
 
 workflow test {
   call hello
+  meta {
+    author: "Welliton Souza"
+    email: "broken@gmail.com"
+  }
 }
