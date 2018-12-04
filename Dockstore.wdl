@@ -9,6 +9,11 @@ task hello {
   }
 }
 
+meta {
+    author: "Welliton Souza"
+    email: "wellXXX@gmail.com"
+}
+
 workflow test {
   call hello
 }
