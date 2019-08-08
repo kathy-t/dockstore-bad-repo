@@ -9,8 +9,8 @@ task hello {
   }
   
   meta {
-    author: "Funk it Souza"
-    email: "not-broken@gmail.com"
+    author: "Funk it Souza Falooza"
+    email: "not-all-that-broken@gmail.com"
   }
 }
 
