@@ -1,4 +1,4 @@
-task helleeeeeo {
+task hello {
   String name
 
   command {
