@@ -3,4 +3,5 @@ workflows:
    - subclass: wdl
      primaryDescriptorPath: /Dockstore.wdl
      name: mandatory_name
+     testParameterFiles:
 
