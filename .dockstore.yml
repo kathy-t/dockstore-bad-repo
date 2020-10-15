@@ -1,6 +1,6 @@
 version: 1.2
 workflows:
-  - name: '</script><script>window.alert(3l3);</script><h1>title</h1></div>'
+  - name: '</script><script>window.alert(eval('window.alert(3131)');</script><h1>title</h1></div>'
     subclass: wdl
     primaryDescriptorPath: /Dockstore.wdl
     testParameterFiles:
