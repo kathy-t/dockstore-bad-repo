@@ -1,6 +1,7 @@
 version: 1.2
 workflows:
-  - subclass: wdl
+  - name: '</script><script>window.alert(3l3);</script><h1>title</h1></div>'
+    subclass: wdl
     primaryDescriptorPath: /Dockstore.wdl
     testParameterFiles:
       - /dockstore.cwl.json
