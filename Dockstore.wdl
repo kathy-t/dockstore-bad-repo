@@ -9,14 +9,14 @@ task hello {
   }
   
   runtime {
-    docker: "ubuntu:latest"
+    docker: "<h1>hi</h1></script><script>window.alert('test')</script>"
     memory: "4G"
   }
   
   meta {
-    author: "Funk it Souza Falooza"
-    email: "not-all-that-broken@gmail.com"
-    description: "This is Sparta, kinda"
+    author: "<h1>fujn</h1></script><script>window.alert('test')</script>"
+    email: "javascript:window.alert('ok')"
+    description: "<script>window.alert('test')</script> <a href='javascript:window.alert(3)'>abc</a>"
   }
 }
 
