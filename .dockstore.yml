@@ -5,3 +5,4 @@ workflows:
     primaryDescriptorPath: /Dockstore.wdl
     testParameterFiles:
       - /dockstore.cwl.json
+    publish: true
