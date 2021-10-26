@@ -1,6 +1,6 @@
 version: 1.2
 workflows:
-  - name: good-name/bad-name
+  - name: good-name-v2
     subclass: wdl
     primaryDescriptorPath: /Dockstore.wdl
     testParameterFiles:
