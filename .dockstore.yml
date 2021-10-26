@@ -2,6 +2,6 @@ version: 1.2
 workflows:
   - name: good-name-v2
     subclass: wdl
-    primaryDescriptorPath: /Dockstore.wdl
+    primaryDescriptorPath: /Dockstore.wdlsdfasdf
     testParameterFiles:
       - /dockstore.cwl.json
