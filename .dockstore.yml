@@ -5,3 +5,8 @@ workflows:
     primaryDescriptorPath: /Dockstore.wdl
     testParameterFiles:
       - /dockstore.cwl.json
+  - name: good-name-cwl
+    subclass: cwl
+    primaryDescriptorPath: /Dockstore.wdl
+    testParameterFiles:
+      - /dockstore.cwl.json
