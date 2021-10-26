@@ -1,6 +1,6 @@
 version: 1.2
 workflows:
-  - name: good-name-v2
+  - name: good-name-v3
     subclass: wdldfgsd
     primaryDescriptorPath: /Dockstore.wdlsdfasdf
     testParameterFiles:
