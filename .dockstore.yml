@@ -1,6 +1,6 @@
 version: 1.2
 workflows:
-  - name: bad-cwl
+  - name: bad cwl
     subclass: cwl
     primaryDescriptorPath: /Dockstore.wdl
     testParameterFiles:
