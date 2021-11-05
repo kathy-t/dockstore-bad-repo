@@ -1,12 +1,7 @@
 version: 1.2
-workflows:
-  - name: bad cwl
-    subclass: cwl
-    primaryDescriptorPath: /Dockstore.wdl
-    testParameterFiles:
-      - /dockstore.cwl.json
-  - name: bad cwl 2
-    subclass: cwl
+workflow:
+  - name: wdl-workflow
+    subclass: wdl
     primaryDescriptorPath: /Dockstore.wdl
     testParameterFiles:
       - /dockstore.cwl.json
