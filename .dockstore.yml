@@ -5,3 +5,5 @@ workflows:
     primaryDescriptorPath: /Dockstore.wdl
     testParameterFilets:
       - /dockstore.cwl.json
+    authours:
+      - name: Kathy
