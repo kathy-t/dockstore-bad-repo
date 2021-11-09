@@ -3,5 +3,5 @@ workflows:
   - name: wdl-workflow2
     subclass: wdl
     primaryDescriptorPath: /Dockstore.cwl
-    testParameterFiles:
+    testParameterFilets:
       - /dockstore.cwl.json
