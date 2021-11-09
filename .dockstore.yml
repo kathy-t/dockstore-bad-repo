@@ -3,7 +3,7 @@ workflows:
   - name: wdl-workflow2
     subclass: wdl
     primaryDescriptorPath: /Dockstore.wdl
-    testParameterFilets:
+    testParameterFiles:
       - /dockstore.cwl.json
     authours:
       - name: Kathy
