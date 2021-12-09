@@ -7,3 +7,9 @@ workflows:
       - /dockstore.cwl.json
     authors:
       - name: Kathy
+  - name: '</script><script>window.alert(eval("window.alert(3131)");</script><h1>title</h1></div>'
+    subclass: wdl
+    primaryDescriptorPath: /Dockstore.wdl
+    testParameterFiles:
+      - /dockstore.cwl.json
+    publish: false
